@@ -10,6 +10,6 @@ const Category = db.define('Category', {
 })
 
 Category.sync()
-	.then(() => console.log(`Table "Categories" created.`))
-	.catch(err => console.log(`!!! ERROR !!!: Table "Categories" not created.`, err))
+	.then(() => console.log(`Table "Categories" exist.`))
+	.catch(err => console.log(`!!! ERROR !!!: Table "Categories" not exist!.`, err))
 module.exports = Category

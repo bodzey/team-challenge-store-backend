@@ -1,4 +1,4 @@
-module.exports = class ServiceResponce {
+module.exports = class ServiceResponse {
 	Message = null
 	Token = null
 	Errors = null
